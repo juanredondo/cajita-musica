@@ -17,7 +17,7 @@ const uint8_t touchPins[] = {4, 15, 13, 12, 14, 27, 33, 32};
 const int numPins = 8;
 
 // Umbral de detección (ajusta este valor según la sensibilidad deseada)
-const int TOUCH_THRESHOLD = 40;
+const int TOUCH_THRESHOLD = 60;
 
 // Definimos el pin del LED
 #define LED_PIN 2
